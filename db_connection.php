@@ -6,6 +6,8 @@ $connection = mysqli_connect("localhost", "root", "", "db_name");
 if(mysqli_connect_errno()){
     echo "Connection to the database failed " . mysqli_connect_errno();
 
+}else {
+    echo "Connection to the database was successful! Woow!!!!";
 }
 
 ?>
